@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383B9BB55254BD33DDFF8B9D /* Pods_Pitayapop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67588E5E4A9BEA57CFBE9614 /* Pods_Pitayapop.framework */; };
+		4B2D934C1EFCCE71008862F7 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D934B1EFCCE71008862F7 /* FancyField.swift */; };
+		4BF81CE91EFC9CBC00536B6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF81CE81EFC9CBC00536B6A /* Constants.swift */; };
+		C4AB14051EFC626100FBADD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB14041EFC626100FBADD1 /* AppDelegate.swift */; };
+		C4AB14071EFC626100FBADD1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB14061EFC626100FBADD1 /* SignInVC.swift */; };
+		C4AB140A1EFC626100FBADD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AB14081EFC626100FBADD1 /* Main.storyboard */; };
+		C4AB140C1EFC626100FBADD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AB140B1EFC626100FBADD1 /* Assets.xcassets */; };
+		C4AB140F1EFC626100FBADD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AB140D1EFC626100FBADD1 /* LaunchScreen.storyboard */; };
+		C4AB14191EFC6A8600FBADD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4AB14181EFC6A8600FBADD1 /* GoogleService-Info.plist */; };
+		C4AB141B1EFC6F8800FBADD1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB141A1EFC6F8800FBADD1 /* AuthService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B2D934B1EFCCE71008862F7 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		4BF81CE81EFC9CBC00536B6A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utils/Constants.swift; sourceTree = "<group>"; };
+		67588E5E4A9BEA57CFBE9614 /* Pods_Pitayapop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pitayapop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96702DA969C8008E16F2802 /* Pods-Pitayapop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pitayapop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pitayapop/Pods-Pitayapop.release.xcconfig"; sourceTree = "<group>"; };
+		C4AB14011EFC626100FBADD1 /* Pitayapop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pitayapop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AB14041EFC626100FBADD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4AB14061EFC626100FBADD1 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		C4AB14091EFC626100FBADD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4AB140B1EFC626100FBADD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4AB140E1EFC626100FBADD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4AB14101EFC626100FBADD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AB14181EFC6A8600FBADD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4AB141A1EFC6F8800FBADD1 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = Services/AuthService.swift; sourceTree = "<group>"; };
+		E991CB1D7EE7AC0344EA1C16 /* Pods-Pitayapop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pitayapop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pitayapop/Pods-Pitayapop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4AB13FE1EFC626100FBADD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383B9BB55254BD33DDFF8B9D /* Pods_Pitayapop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADDD91CE3054C082FC7ECC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E991CB1D7EE7AC0344EA1C16 /* Pods-Pitayapop.debug.xcconfig */,
+				A96702DA969C8008E16F2802 /* Pods-Pitayapop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B2D934D1EFCCE75008862F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D934B1EFCCE71008862F7 /* FancyField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4BF81CEA1EFC9CC100536B6A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4BF81CE81EFC9CBC00536B6A /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C4AB13F81EFC626000FBADD1 = {
+			isa = PBXGroup;
+			children = (
+				C4AB14031EFC626100FBADD1 /* Pitayapop */,
+				C4AB14021EFC626100FBADD1 /* Products */,
+				2ADDD91CE3054C082FC7ECC1 /* Pods */,
+				C934BF940637D0CD195F1666 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4AB14021EFC626100FBADD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB14011EFC626100FBADD1 /* Pitayapop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AB14031EFC626100FBADD1 /* Pitayapop */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB141C1EFC6F8E00FBADD1 /* Services */,
+				4B2D934D1EFCCE75008862F7 /* View */,
+				4BF81CEA1EFC9CC100536B6A /* Utils */,
+				C4AB14161EFC68DC00FBADD1 /* Controller */,
+				C4AB14041EFC626100FBADD1 /* AppDelegate.swift */,
+				C4AB14081EFC626100FBADD1 /* Main.storyboard */,
+				C4AB140B1EFC626100FBADD1 /* Assets.xcassets */,
+				C4AB140D1EFC626100FBADD1 /* LaunchScreen.storyboard */,
+				C4AB14171EFC6A7200FBADD1 /* Resources */,
+			);
+			path = Pitayapop;
+			sourceTree = "<group>";
+		};
+		C4AB14161EFC68DC00FBADD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB14061EFC626100FBADD1 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C4AB14171EFC6A7200FBADD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB14181EFC6A8600FBADD1 /* GoogleService-Info.plist */,
+				C4AB14101EFC626100FBADD1 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4AB141C1EFC6F8E00FBADD1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB141A1EFC6F8800FBADD1 /* AuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		C934BF940637D0CD195F1666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67588E5E4A9BEA57CFBE9614 /* Pods_Pitayapop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4AB14001EFC626100FBADD1 /* Pitayapop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AB14131EFC626100FBADD1 /* Build configuration list for PBXNativeTarget "Pitayapop" */;
+			buildPhases = (
+				202629B4B3AEE7ECB2678345 /* [CP] Check Pods Manifest.lock */,
+				C4AB13FD1EFC626100FBADD1 /* Sources */,
+				C4AB13FE1EFC626100FBADD1 /* Frameworks */,
+				C4AB13FF1EFC626100FBADD1 /* Resources */,
+				44B92FB862CA3F60CEC22FCD /* [CP] Embed Pods Frameworks */,
+				63D5AD903A97B0D5C1EE6609 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pitayapop;
+			productName = Pitayapop;
+			productReference = C4AB14011EFC626100FBADD1 /* Pitayapop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4AB13F91EFC626000FBADD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pitaya Estudio";
+				TargetAttributes = {
+					C4AB14001EFC626100FBADD1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4AB13FC1EFC626000FBADD1 /* Build configuration list for PBXProject "Pitayapop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4AB13F81EFC626000FBADD1;
+			productRefGroup = C4AB14021EFC626100FBADD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4AB14001EFC626100FBADD1 /* Pitayapop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AB13FF1EFC626100FBADD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AB140F1EFC626100FBADD1 /* LaunchScreen.storyboard in Resources */,
+				C4AB140C1EFC626100FBADD1 /* Assets.xcassets in Resources */,
+				C4AB140A1EFC626100FBADD1 /* Main.storyboard in Resources */,
+				C4AB14191EFC6A8600FBADD1 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202629B4B3AEE7ECB2678345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44B92FB862CA3F60CEC22FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pitayapop/Pods-Pitayapop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D5AD903A97B0D5C1EE6609 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pitayapop/Pods-Pitayapop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AB13FD1EFC626100FBADD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AB141B1EFC6F8800FBADD1 /* AuthService.swift in Sources */,
+				C4AB14071EFC626100FBADD1 /* SignInVC.swift in Sources */,
+				4B2D934C1EFCCE71008862F7 /* FancyField.swift in Sources */,
+				C4AB14051EFC626100FBADD1 /* AppDelegate.swift in Sources */,
+				4BF81CE91EFC9CBC00536B6A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4AB14081EFC626100FBADD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AB14091EFC626100FBADD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4AB140D1EFC626100FBADD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AB140E1EFC626100FBADD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4AB14111EFC626100FBADD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4AB14121EFC626100FBADD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AB14141EFC626100FBADD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E991CB1D7EE7AC0344EA1C16 /* Pods-Pitayapop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pitayapop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pitaya.Pitayapop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4AB14151EFC626100FBADD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96702DA969C8008E16F2802 /* Pods-Pitayapop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pitayapop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pitaya.Pitayapop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4AB13FC1EFC626000FBADD1 /* Build configuration list for PBXProject "Pitayapop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AB14111EFC626100FBADD1 /* Debug */,
+				C4AB14121EFC626100FBADD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AB14131EFC626100FBADD1 /* Build configuration list for PBXNativeTarget "Pitayapop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AB14141EFC626100FBADD1 /* Debug */,
+				C4AB14151EFC626100FBADD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4AB13F91EFC626000FBADD1 /* Project object */;
+}

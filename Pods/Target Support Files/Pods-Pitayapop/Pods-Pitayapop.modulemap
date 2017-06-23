@@ -1,0 +1,6 @@
+framework module Pods_Pitayapop {
+  umbrella header "Pods-Pitayapop-umbrella.h"
+
+  export *
+  module * { export * }
+}

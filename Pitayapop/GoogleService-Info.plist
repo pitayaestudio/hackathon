@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>259482697983-8r6dopreee576lm20mh7a60va7hl6j50.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.259482697983-8r6dopreee576lm20mh7a60va7hl6j50</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-cf7QrKhvVyo5R60IzqmBZu98tVXZcw8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>259482697983</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pitaya.Pitayapop</string>
+	<key>PROJECT_ID</key>
+	<string>pitayapop-18d3e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pitayapop-18d3e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:259482697983:ios:1fcea26129ac9731</string>
+	<key>DATABASE_URL</key>
+	<string>https://pitayapop-18d3e.firebaseio.com</string>
+</dict>
+</plist>
